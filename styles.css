@@ -92,8 +92,8 @@ nav a:hover{
 .cards img{
     margin: 0 auto; 
     object-fit: cover;
-    max-width: 300px;
-    height: auto;
+    max-height: 250px;
+    width: auto;
 }
 
 .card-body{
