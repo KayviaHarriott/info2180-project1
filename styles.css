@@ -171,6 +171,7 @@ main .container{
     grid-area: 'picture';
 }
 
+
 .article-body h3{
     font-size: 18px;
 }
@@ -187,7 +188,7 @@ main .container{
 }
 
 .newsletter .btn{
-    background-color: #5A67D8 ;
+    background-color: #5A67D8;
 }
 
 footer{
@@ -197,3 +198,11 @@ footer{
     padding: 20px;
 }
 
+.submittedButton{
+    background-color: red;
+}
+
+/*
+form{
+    background-color: red;
+}*/
