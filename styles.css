@@ -47,6 +47,10 @@ nav a:hover{
 }
 
 
+main .container{
+    padding: 100px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 960px;
@@ -68,6 +72,8 @@ nav a:hover{
     height: 100px;
     width: 100px;
     /*float: left;*/
+    display: block;
+    margin: 0 auto; 
 }
 
 .learn-about h2{
@@ -86,6 +92,11 @@ nav a:hover{
     display: grid;
     grid-template-areas: 'card card card ';
     column-gap: 20px;
+    
+}
+
+.card-body{
+    padding: 10px;
 }
 
 .cards > .card{
@@ -139,3 +150,4 @@ footer{
     background-color: #4A5568;
     color: white;
 }
+
