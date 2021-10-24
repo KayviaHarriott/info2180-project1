@@ -35,11 +35,14 @@ header nav{
 
 header ul li{
     display: inline;
-
 }
 
 header ul{
     list-style-type: none;
+}
+
+nav a, .stories a{
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -48,13 +51,35 @@ nav a:hover{
 
 
 main .container{
-    padding: 100px;
+    /*padding: 100px;*/
+    padding: 5%;
 }
 
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+.newsletter > .container > form .form-group, .btn{
+    display: inline;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.newsletter .btn, input{
+    padding: 20px;
+}
+
+.newsletter input{    
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.newsletter .btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
 }
 
 .overview-hero-image img{
@@ -69,11 +94,17 @@ main .container{
 
 
 .cards img{
-    height: 100px;
+    /*height: 300px;
+    width: auto;
     width: 100px;
-    /*float: left;*/
-    display: block;
+    float: left;
+    display: block;*/
     margin: 0 auto; 
+
+    /*need to make responsive*/
+    object-fit: cover;
+    max-height: 300px;
+    /*height: 100px;*/
 }
 
 .learn-about h2{
@@ -97,6 +128,7 @@ main .container{
 
 .card-body{
     padding: 10px;
+    width: 300px;
 }
 
 .cards > .card{
@@ -126,6 +158,19 @@ main .container{
     color: #5A67D8;
 }
 
+.stories article{
+    display: grid;
+    grid-template-areas: 'picture  info';
+}
+
+.stories img{
+    grid-area: 'picture';
+}
+
+.stories .article-body{
+    grid-area: 'picture';
+}
+
 .article-body h3{
     font-size: 18px;
 }
@@ -149,5 +194,6 @@ footer{
     grid-area: footer;
     background-color: #4A5568;
     color: white;
+    padding: 20px;
 }
 
