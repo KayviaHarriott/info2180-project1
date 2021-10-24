@@ -11,9 +11,13 @@ header{
     font-size: 18px;
 }
 
+header ul li{
+    display: inline;
+}
 nav a:hover{
     color: #5A67D8;
 }
+
 
 .container {
     margin: 0 auto;
@@ -73,6 +77,39 @@ nav a:hover{
 }
 
 .testing{
+    background-color: #4A5568;
+    color: white;
+}
+
+.cta > a{
+    background-color: #48BB78;
+    border-radius: 5px;
+}
+
+.stories h2, a{
+    color: #5A67D8;
+}
+
+.article-body h3{
+    font-size: 18px;
+}
+
+.stories img{
+    height: 100px; /*Fix this to make images small but circle*/
+    border-radius: 50%;
+    /*float: left;*/
+}
+
+.newsletter{
+    background-color: #48BB78;
+    color: white;
+}
+
+.newsletter .btn{
+    background-color: #5A67D8 ;
+}
+
+footer{
     background-color: #4A5568;
     color: white;
 }
