@@ -31,15 +31,20 @@ header h1, nav{
 
 header nav{
     float: right;
+    
+    vertical-align: middle;
 }
 
 header ul li{
     display: inline;
+    font-size: 18px;
 }
 
 header ul{
     list-style-type: none;
+    
 }
+
 
 nav a, .stories a{
     text-decoration: none;
@@ -165,26 +170,36 @@ main .container{
 
 .stories img{
     grid-area: 'picture';
+    padding: 20px;
 }
 
 .stories .article-body{
     grid-area: 'picture';
+    
 }
 
+.newsletter p{
+    width: 450px;
+}
 
 .article-body h3{
     font-size: 18px;
 }
 
+article h3,article p{
+    padding-bottom: 10px;
+}
+
 .stories img{
-    height: 100px; /*Fix this to make images small but circle*/
+    height: 150px; /*Fix this to make images small but circle*/
     border-radius: 50%;
 }
 
 .newsletter{
     background-color: #48BB78;
     color: white;
-    text-align: center;
+    /*text-align: center;*/
+    
 }
 
 .newsletter .btn{
@@ -205,4 +220,21 @@ footer{
 
 .formsr{
     background-color: red;
+}
+
+#email{
+    width: 300px;
+}
+
+.newsletter p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter h3{
+    text-align: center;
+}
+
+form{
+    text-align: center;
 }
